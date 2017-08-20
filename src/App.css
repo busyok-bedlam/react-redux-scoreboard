@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.App {
+
+  width: 30%;
+  margin: 100px auto;
+  border: 4px solid #000;
+
+}
+.player{
+  display: flex;
+  border-top: 4px solid #000;
+}
+.removePlayer{
+  cursor: pointer;
+}
+.playerCounter{
+  background: blue;
+  width: 50%;
+  color: #fff;
+}
+.playerName{
+  background: #D1FD75;
+
+  padding: 5px 0;
+  width: 50%;
+
+}
+.playerName:hover{
+  background: #669600;
+  color: #fff;
+}
+.removePlayer{
+  float: right;
+}
+.header{
+  padding: 5px 10px;
+  background-color: #189284;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
